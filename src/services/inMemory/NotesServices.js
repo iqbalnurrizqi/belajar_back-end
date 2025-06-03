@@ -1,6 +1,7 @@
 const InvariantError = require("../../exceptions/InvariantError");
 const NotFoundError = require("../../exceptions/notFoundError");
 
+
 class NotesServices {
   constructor() {
     this._notes = [];
@@ -64,5 +65,7 @@ class NotesServices {
     this._notes.splice(index, 1);
   }
 }
+
+
 
 module.exports = NotesServices;
